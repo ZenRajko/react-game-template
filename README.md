@@ -1,13 +1,18 @@
-# Warehouse Shift: A Stacking Game
+# TITLE
 
-*** WORK IN PROGRESS ***
+This is a template for a React game. 
+Search and replace the following tags with your own:
 
-The basic idea: you're running a warehouse. Crates come in, crates need to go out, crates have limits on how they can be stacked - that's where the strategy comes in.
+* MY-GAME-REPO - replace with the name of your game's repository; e.g. "jumpy-bird".
 
-<a href='https://zenrajko.github.io/tic-tac-toe/' target="_blank">Demo of game so far</a>
+* MY-GAME-TITLE - replace with you're game's title; e.g. "Jumpy Bird".
+
+* MY NAME - replace with your name. This appears on the title page.
+
+<a href='https://zenrajko.github.io/MY-GAME-REPO/' target="_blank">Play it</a>
 
 <br>
 
 ### AI Contributions
 
-At this point, no AI assistance was involved in developing this game. This is an experiment in developing a game without AI.
+Specify what, if any, assistance was provided by AI.

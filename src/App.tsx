@@ -30,13 +30,13 @@ const App: React.FC = () => {
     <div className="main">
       {page === Page.Title && (<div className="title-page fade-in"
         onClick={() => setPage(Page.Game)}>
-        <div className="title">Warehouse<br></br>SHIFT</div>
-        <div className="by">by<br></br>Damian Rajkowski</div>
+        <div className="title">MY GAME TITLE</div>
+        <div className="by">by<br></br>MY NAME</div>
         <div className="date">19 May 2025</div>
         <div className="tap-me">Tap anywhere<br></br>to start</div>
       </div>)}
       {page === Page.Game && (<div className="game-page fade-in">
-        <div className="title">Warehouse Shift</div>
+        <div className="title">MY GAME TITLE</div>
         <div className="board">
           {board.map((cell, index) => (
             <button key={index} onClick={() => handleClick(index)}
@@ -48,7 +48,7 @@ const App: React.FC = () => {
           <button title="Restart" onClick={() => restartGame()}>
             <FontAwesomeIcon icon={faRotate} /></button>
           <button title="GitHub Page" onClick={() => {
-            window.open("https://github.com/ZenRajko/warehouse-shift", "_blank");
+            window.open("https://github.com/ZenRajko/MY-GAME-REPO", "_blank");
           }
           }><FontAwesomeIcon icon={faGithub} /></button>
           <button title="Info" onClick={() => {
