@@ -24,3 +24,7 @@ If your app uses animations, include the advice below:
 ### AI Contributions
 
 Specify what, if any, assistance was provided by AI.
+
+### Terms & Conditions
+
+This app is provided as-is. Use at own risk. Free to use as you want, although some credit would be nice.
